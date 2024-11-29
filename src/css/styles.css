@@ -1,0 +1,84 @@
+header {
+    background-color: #393f85;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+header h4 {
+    color:whitesmoke;
+    font-weight: normal;
+}
+
+header h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+    margin: 0;
+    color:#243032;
+}
+
+header h1 .business {
+    color: tomato; /* Green color for "Business" */
+}
+
+header h1 .box {
+    color:white; /* Tomato color for "Box" */
+}
+h2{
+    color: #90ee90;
+}
+
+
+header nav ul li a {
+    text-decoration: none; 
+    color: white; 
+    font-weight: bold;
+    padding: 5px 10px; 
+    border: 2px solid #90ee90; 
+    border-radius: 5px; 
+    background-color: #90ee90;
+    display: inline-block; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+header nav ul li a:hover {
+    text-decoration: none ;
+    color:white; 
+    background-color:tomato;
+    border-color: tomato;
+
+}
+a.linky{
+    color: #90ee90;
+
+}
+header nav ul li a.active {
+    background-color: tomato; 
+    border-color: tomato;
+    color: white;
+}
+
+.section-meta {
+    display: flex; 
+    gap: 15px; 
+    align-items: center; 
+}
+
+.section-meta p,
+.section-meta a {
+    margin: 0; 
+    white-space: nowrap; 
+}
+a.learn{
+    text-decoration: underline ;
+}
+
+.section-meta a {
+    color: tomato; 
+    text-decoration: none; 
+}
+
+.section-meta a:hover {
+    text-decoration: underline; 
+}
+
